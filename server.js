@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
   res.send('<h1>✅ milboard server running</h1><p>Put index.html in /public/ or root</p>');
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 const AIS_KEY = process.env.AIS_KEY || '82a2564216a5c0e2ca666097d7652f6982528356';
 
 // ─── Simple fetch helper ────────────────────────────────────
